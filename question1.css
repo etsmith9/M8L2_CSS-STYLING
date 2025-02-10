@@ -1,0 +1,156 @@
+body {
+    background-color: rgb(204, 213, 221);
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Task 1: Styling Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: seagreen;
+}
+a:visited {
+    color: rgb(128, 0, 0);  /* visited links */
+}
+
+/* Task 2: Styling Images */
+img {
+    width: 150px;
+    height: auto; 
+    border: 3px solid #0056b3;
+    border-radius: 75px;
+    margin: 20px 0;
+    transition: transform 0.3s ease, border 0.3s ease; 
+}
+
+img:hover {
+    transform: scale(1.1); 
+    border: 3px solid yellow; /* Change border color to yellow */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+audio:focus, video:focus, audio:hover, video:hover {
+    outline: 2px solid #ff4500;
+    cursor: pointer;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions for background and shadow */
+    cursor: pointer;
+}
+
+/* Hover effects for CTA buttons */
+.cta-button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3); /* Add shadow on hover */
+}
+
+/* Focus state for accessibility */
+.cta-button:focus {
+    outline: 2px solid #ff4500; /* Outline when button is focused */
+}
+
+/* Task 3: Styling Links in CTA Buttons */
+.cta-button a {
+    color: white;
+    text-decoration: none;
+    display: block; /* Make the entire button clickable */
+}
+
+/* Task 4: Form Formatting */
+form {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+textarea {          
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="reset"],
+button[type="submit"] {
+    background-color: #007bff;  
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button[type="reset"]:hover,  
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+/*Styling the navigation menu*/
+.navigation-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: center; 
+}
+
+.navigation-menu li {
+    display: inline-block; 
+    margin-right: 30px;
+}
+
+.navigation-menu li:last-child {
+    margin-right: 0; 
+}
+
+.navigation-menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #f0f0f0; 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.navigation-menu a:hover {
+    background-color: #ff6600; 
+    color: white;
+    transform: scale(1.1); 
+}
+
+
+.navigation-menu a:focus {
+    outline: 2px solid #ff4500;
+}
+

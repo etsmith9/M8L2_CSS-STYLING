@@ -1,0 +1,130 @@
+body {
+    background-color: rgb(204, 213, 221);
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+img {
+    width: 150px;
+    height: auto; 
+    border: 3px solid #0056b3;
+    border-radius: 75px;
+    margin: 20px 0;
+    transition: transform 0.3s ease, border 0.3s ease; 
+}
+
+img:hover {
+    transform: scale(1.1); 
+    border: 3px solid yellow; 
+    cursor: pointer; 
+}
+
+audio:focus, video:focus, audio:hover, video:hover {
+    outline: 2px solid #ff4500;
+    cursor: pointer;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+    cursor: pointer;
+}
+
+
+.cta-button:hover {
+    background-color: #0056b3; 
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+}
+
+
+.cta-button:focus {
+    outline: 2px solid #ff4500; 
+}
+
+
+.cta-button a {
+    color: white;
+    text-decoration: none;
+    display: block; 
+}
+/*Task 1, styling form*/
+form {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {          
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-sizing: boarder-box;
+}
+
+button[type="reset"],
+button[type="submit"] {
+    background-color: #007bff;  
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button[type="reset"]:hover,  
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/**/
+
+
+/*Task 3, Table Style*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #4980c8;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
