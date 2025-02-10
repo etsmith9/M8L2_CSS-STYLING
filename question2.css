@@ -128,3 +128,44 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #ddd;
 }
+
+/*Styling the navigation menu*/
+.navigation-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: center; 
+}
+
+.navigation-menu li {
+    display: inline-block; 
+    margin-right: 30px;
+}
+
+.navigation-menu li:last-child {
+    margin-right: 0; 
+}
+
+.navigation-menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #f0f0f0; 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.navigation-menu a:hover {
+    background-color: #ff6600; 
+    color: white;
+    transform: scale(1.1); 
+}
+
+
+.navigation-menu a:focus {
+    outline: 2px solid #ff4500;
+}
+
