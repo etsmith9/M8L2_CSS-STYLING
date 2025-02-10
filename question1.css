@@ -38,6 +38,7 @@ audio:focus, video:focus, audio:hover, video:hover {
     cursor: pointer;
 }
 
+/*Task 3, Call to Action Buttons*/
 .cta-button {
     display: inline-block;
     padding: 15px 30px;
